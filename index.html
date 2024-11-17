@@ -18,7 +18,7 @@
                     // Convertir el objeto JSON a texto
                     let jsonText = JSON.stringify(data); 
                     $("#data_obj_pre").val(jsonText);
-                    console.log(data); // Salida: {  }
+                    //console.log(data); // Salida: {  }
                 });
             });
         </script>
@@ -77,7 +77,8 @@
             <button class="c_button" type="button" name="Generar XML" onclick="f_asignar_xml()">Generar XML</button>
 
             <button class="c_button" type="button" name="Asignar Json a items" onclick="f_clic_asignar_valores_items()">Asignar valores a pantalla</button>
-            <button class="c_button" type="button" name="Descargar scv" onclick="arrayObjToCsv(miArrayDeObjetos)">csv desc</button>
+            <button class="c_button" type="button" name="Descargar scv" onclick="f_obtener_datos_csv()">Asignar csv </button>
+            <button class="c_button" type="button" name="Descargar scv" onclick="f_descarga_csv()">csv desc</button>
 
         </div>  
        
