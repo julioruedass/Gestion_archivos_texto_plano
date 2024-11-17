@@ -1,0 +1,125 @@
+{
+    "requisitos": [
+        {
+            "clave_elemento": "element_1",
+            "serieId_requisito": "1",
+            "valor1": "1_data_val_1",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_2",
+            "serieId_requisito": "2",
+            "valor1": "2_data_val_2",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_3",
+            "serieId_requisito": "3",
+            "valor1": "3_data_val_3",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_4",
+            "serieId_requisito": "4",
+            "valor1": "4_data_val_4",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_5",
+            "serieId_requisito": "5",
+            "valor1": "5_data_val_5",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_6",
+            "serieId_requisito": "6",
+            "valor1": "6_data_val_6",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_7",
+            "serieId_requisito": "7",
+            "valor1": "7_data_val_7",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_8",
+            "serieId_requisito": "8",
+            "valor1": "8_data_val_8",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_9",
+            "serieId_requisito": "9",
+            "valor1": "9_data_val_9",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_10",
+            "serieId_requisito": "10",
+            "valor1": "10_data_val_10",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_11",
+            "serieId_requisito": "11",
+            "valor1": "11_data_val_11",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_12",
+            "serieId_requisito": "12",
+            "valor1": "12_data_val_12",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_13",
+            "serieId_requisito": "13",
+            "valor1": "13_data_val_13",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_14",
+            "serieId_requisito": "14",
+            "valor1": "14_data_val_14",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_15",
+            "serieId_requisito": "15",
+            "valor1": "15_data_val_15",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_16",
+            "serieId_requisito": "16",
+            "valor1": "16_data_val_16",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_17",
+            "serieId_requisito": "17",
+            "valor1": "17_data_val_17",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_18",
+            "serieId_requisito": "18",
+            "valor1": "18_data_val_18",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_19",
+            "serieId_requisito": "19",
+            "valor1": "19_data_val_19",
+            "valor2": null
+        },
+        {
+            "clave_elemento": "element_20",
+            "serieId_requisito": "20",
+            "valor1": "20_data_val_20",
+            "valor2": null
+        }
+    ],
+    "estatus": "valido"
+}

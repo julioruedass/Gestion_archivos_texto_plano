@@ -1,0 +1,1 @@
+CODE,error,ejemploORA-00001;unique constraint (string.string) violated;2015-10-01,uguyg,uygtyugORA-00017;session requested to set trace event;2015-10-29,uyguyg,yugyugORA-02142;missing or invalid ALTER TABLESPACE option;2015-11-09,yuguyg,yuguygORA-19500;device block size string is invalid;2015-11-14,uygyug,yug

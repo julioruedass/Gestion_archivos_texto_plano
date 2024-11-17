@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamic Elemments</title>
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="src/css/style.css">
+    <!--<link rel="icon" href="ruta-del-icono/icono.png" type="image/png">-->
+    <script type="text/javascript" src="src/js/code.js"></script>
+    <script type="text/javascript" src="src/js/jquey_v3_7_1.js"></script>
+</head>
+
+<body>
+    <div class="g_contenedor-elementos s_wrapper" id="g_con">
+        <div class="row-tittle contenedor con_1" id="g_tit_con">
+            <h1 class="tittle_cont" id="tittle_cont_1"> Titulo contenedor </h1>
+        </div>
+        <div class="contenedor-elements_col contenedor con_2" id="con_element_col_1">
+            <h1 class="tittle_cont" id="tittle_cont_2">Titulo de detalles de elemento (contenedor columna 1) </h1>
+            <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01"
+                value="1_data_val_1" data-req="1" id="element_1">
+            <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01"
+                value="2_data_val_2" data-req="2" id="element_2">
+            <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01"
+                value="3_data_val_3" data-req="3" id="element_3">
+            <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01"
+                value="4_data_val_4" data-req="4" id="element_4">
+            <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01"
+                value="5_data_val_5" data-req="5" id="element_5">
+            <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01"
+                value="6_data_val_6" data-req="6" id="element_6">
+            <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01"
+                value="7_data_val_7" data-req="7" id="element_7">
+            <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01"
+                value="8_data_val_8" data-req="8" id="element_8">
+            <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01"
+                value="9_data_val_9" data-req="9" id="element_9">
+            <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01"
+                value="10_data_val_10" data-req="10" id="element_10">
+        </div>
+
+        <div class="contenedor-elements_col contenedor con_4" id="con_element_col_2">
+            <h1 class="tittle_cont" id="tittle_cont_4">Titulo de detalles de elemento (contenedor ) </h1>
+            <button class="c_button" type="button" name="Asignar Json a items"
+                onclick="f_clic_asignar_valores_items()">Asignar valores a pantalla</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,252 @@
+{
+    "serie_tramite": "2024",
+    "identificador_tramite": "5492",
+    "comportamiento": "MODIFICACION",
+    "cc_sein_clave": "V010",
+    "requisitos": [
+        {
+            "serieId_requisito": "20243968",
+            "valor1": "08-001-019-00-0001-014-009-00024-00-0000",
+            "seca_clave": "K000"
+        },
+        {
+            "serieId_requisito": "20244017",
+            "valor1": "243",
+            "seca_clave": "K044"
+        },
+        {
+            "serieId_requisito": "20244018",
+            "valor1": "235",
+            "seca_clave": "K043"
+        },
+        {
+            "serieId_requisito": "20243363",
+            "valor1": "AMAYRANIA ALEJO  MARROQUIN",
+            "seca_clave": "K030"
+        },
+        {
+            "serieId_requisito": "20244097",
+            "valor1": "CALLE NICOLAS BRAVO 908  COLONIA CENTRO 31000 CHIHUAHUA CHIHUAHUA CHIHUAHUA",
+            "seca_clave": "K060"
+        },
+        {
+            "serieId_requisito": "20243354",
+            "valor1": "AMAYRANIA ALEJO  MARROQUIN",
+            "seca_clave": "K042"
+        },
+        {
+            "serieId_requisito": "20243355",
+            "valor1": "07",
+            "seca_clave": "K048"
+        },
+        {
+            "serieId_requisito": "20243356",
+            "valor1": "SANTA FE",
+            "seca_clave": "K055"
+        },
+        {
+            "serieId_requisito": "20243358",
+            "valor1": "908",
+            "seca_clave": "K032"
+        },
+        {
+            "serieId_requisito": "20243359",
+            "valor1": "",
+            "seca_clave": "K034"
+        },
+        {
+            "serieId_requisito": "20243357",
+            "valor1": "14",
+            "seca_clave": "K046"
+        },
+        {
+            "serieId_requisito": "20243360",
+            "valor1": "CENTRO",
+            "seca_clave": "K006"
+        },
+        {
+            "serieId_requisito": "20243361",
+            "valor1": "31000",
+            "seca_clave": "K007"
+        },
+        {
+            "serieId_requisito": "20243364",
+            "valor1": "",
+            "seca_clave": "K040"
+        },
+        {
+            "serieId_requisito": "20243365",
+            "valor1": "10",
+            "seca_clave": "K047"
+        },
+        {
+            "serieId_requisito": "20243366",
+            "valor1": "",
+            "seca_clave": "K009"
+        },
+        {
+            "serieId_requisito": "20243367",
+            "valor1": "",
+            "seca_clave": "K033"
+        },
+        {
+            "serieId_requisito": "20243368",
+            "valor1": "",
+            "seca_clave": "K035"
+        },
+        {
+            "serieId_requisito": "20244113",
+            "valor1": "",
+            "seca_clave": "K062"
+        },
+        {
+            "serieId_requisito": "20243369",
+            "valor1": "",
+            "seca_clave": "K010"
+        },
+        {
+            "serieId_requisito": "20243370",
+            "valor1": "",
+            "seca_clave": "K008"
+        },
+        {
+            "serieId_requisito": "20243362",
+            "valor1": "",
+            "seca_clave": "K045"
+        },
+        {
+            "serieId_requisito": "20243371",
+            "valor1": "Industrial",
+            "seca_clave": "K020"
+        },
+        {
+            "serieId_requisito": "20243372",
+            "valor1": "EL MISMO CHIUHA",
+            "seca_clave": "K011"
+        },
+        {
+            "serieId_requisito": "20243373",
+            "valor1": "",
+            "seca_clave": "K037"
+        },
+        {
+            "serieId_requisito": "20244440",
+            "valor1": "",
+            "seca_clave": "K069"
+        },
+        {
+            "serieId_requisito": "20243374",
+            "valor1": "",
+            "seca_clave": "K015"
+        },
+        {
+            "serieId_requisito": "20243375",
+            "valor1": "",
+            "seca_clave": "K016"
+        },
+        {
+            "serieId_requisito": "20243376",
+            "valor1": "",
+            "seca_clave": "K022"
+        },
+        {
+            "serieId_requisito": "20243377",
+            "valor1": "",
+            "seca_clave": "K023"
+        },
+        {
+            "serieId_requisito": "20243378",
+            "valor1": "",
+            "seca_clave": "K036"
+        },
+        {
+            "serieId_requisito": "20243379",
+            "valor1": "",
+            "seca_clave": "K052"
+        },
+        {
+            "serieId_requisito": "20244062",
+            "valor1": "Si",
+            "seca_clave": "K001"
+        },
+        {
+            "serieId_requisito": "20244046",
+            "valor1": "D456",
+            "seca_clave": "K049"
+        },
+        {
+            "serieId_requisito": "20243802",
+            "valor1": "20243802"
+        },
+        {
+            "serieId_requisito": "20243803",
+            "valor1": "20243803"
+        },
+        {
+            "serieId_requisito": "20243804",
+            "valor1": "20243804"
+        },
+        {
+            "serieId_requisito": "20243805",
+            "valor1": "20243805"
+        },
+        {
+            "serieId_requisito": "20243807",
+            "valor1": "20243807"
+        },
+        {
+            "serieId_requisito": "20243808",
+            "valor1": "20243808"
+        },
+        {
+            "serieId_requisito": "20243919",
+            "valor1": "2672",
+            "valor2": "RDO_DR"
+        }
+    ],
+    "cobros": [
+        {
+            "claveConcepto": "430202005",
+            "descripcionConcepto": "INGRESO PERMISO DE CONSTRUCCION DE CASA HABITACION",
+            "comentario": "const 1",
+            "total": "108.57",
+            "idpadre": null,
+            "naturaleza_con": "A",
+            "seq_id": 1,
+            "tipo_concepto": "PRINCIPAL",
+            "seq_id_padre": "1",
+            "identificadorcon": "1223",
+            "FECHA_PERIODO_INICIO": "16/10/24",
+            "criterios": [
+                {
+                    "nombre": "No_unidades",
+                    "valor1": "1"
+                },
+                {
+                    "nombre": "Superficie_baja",
+                    "valor1": "10"
+                },
+                {
+                    "nombre": "Superficie_alta",
+                    "valor1": "0"
+                },
+                {
+                    "nombre": "Otros_niveles",
+                    "valor1": "0"
+                },
+                {
+                    "nombre": "Avance_",
+                    "valor1": "0"
+                },
+                {
+                    "nombre": "dias",
+                    "valor1": "0"
+                },
+                {
+                    "nombre": "Dias_sin_permiso",
+                    "valor1": "0"
+                }
+            ]
+        }
+    ]
+}

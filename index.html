@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamic Elemments</title>
+    <link rel="icon" href="src/img/line_command_96.png" type="image/x-icon">
+        <!-- Enlace al archivo CSS externo -->
+        <link rel="stylesheet" href="src/css/style.css">
+        <!--<link rel="icon" href="ruta-del-icono/icono.png" type="image/png">-->
+        <script type="text/javascript" src="src/js/code.js" ></script>
+        <script type="text/javascript" src="src/js/jquey_v3_7_1.js" ></script>
+
+        <script>
+            $(document).ready(function() {
+                $.getJSON("src/json/data_precarga_obj.json", function(data) {
+                    // Convertir el objeto JSON a texto
+                    let jsonText = JSON.stringify(data); 
+                    $("#data_obj_pre").val(jsonText);
+                    console.log(data); // Salida: {  }
+                });
+            });
+        </script>
+</head>
+
+<body>
+    <header>
+        <h1><img src="src/img/json_logo.svg" type="svg" alt="" id="logo_index">Analizando datos planos</h1>
+    </header>
+
+    <div class="g_contenedor-elementos s_wrapper" id="g_con">
+        <div class="row-tittle contenedor con_1" id="g_tit_con">
+            <h1 class="tittle_cont" id="tittle_cont_1"> Titulo contenedor </h1>
+        </div>
+        <div class="contenedor-elements_col contenedor con_2" id="con_element_col_1">
+            <h1 class="tittle_cont" id="tittle_cont_2">Titulo de detalles de elemento (contenedor columna 1) </h1>
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="1_data_val_1" data-req="1" id="element_1">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="2_data_val_2" data-req="2" id="element_2">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="3_data_val_3" data-req="3" id="element_3">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="4_data_val_4" data-req="4" id="element_4">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="5_data_val_5" data-req="5" id="element_5">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="6_data_val_6" data-req="6" id="element_6">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="7_data_val_7" data-req="7" id="element_7">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="8_data_val_8" data-req="8" id="element_8">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="9_data_val_9" data-req="9" id="element_9">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="10_data_val_10" data-req="10" id="element_10">
+        </div>
+
+        <div class="contenedor-elements_col contenedor con_3" id="con_element_col_3">
+            <h1 class="tittle_cont" id="tittle_cont_3">Titulo de detalles de elemento (contenedor columna 2) </h1>
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="11_data_val_11" data-req="11" id="element_11">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="12_data_val_12" data-req="12" id="element_12">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="13_data_val_13" data-req="13" id="element_13">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="14_data_val_14" data-req="14" id="element_14">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="15_data_val_15" data-req="15" id="element_15">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="16_data_val_16" data-req="16" id="element_16">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="17_data_val_17" data-req="17" id="element_17">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="18_data_val_18" data-req="18" id="element_18">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="19_data_val_19" data-req="19" id="element_19">
+           <span> Elemento:</span><input type="text" class="elements_dinamic_01 input elemento" name="fg01" value="20_data_val_20" data-req="20" id="element_20">
+        </div>        
+
+        <div class="contenedor-elements_col contenedor con_4" id="con_element_col_4">
+            <h1 class="tittle_cont" id="tittle_cont_4">Titulo de detalles de elemento (contenedor ) </h1>
+            <!-- json javascript-->
+            <button class="c_button" type="button" name="Generar Json" onclick="f_asignar_datos_js()">Asignar Json js</button>
+            <button class="c_button" type="button" name="Descargar Json" onclick="f_descargar_json()">Descargar Json js</button>
+            <!-- json jquery-->
+            <button class="c_button" type="button" name="Generar Json" onclick="f_asignar_datos_jquery()">Asignar Json JQ</button>
+            <button class="c_button" type="button" name="Generar Json" onclick="f_asignar_datos_jquery2()">Asignar Json JQ2</button>
+            <button class="c_button" type="button" name="Descargar Json" onclick="f_descargar_json()">Descargar Json jq</button>
+     
+
+            <!-- XML-->
+            <button class="c_button" type="button" name="Generar XML" onclick="f_descargar_xml()">Descargar XML</button>
+            <button class="c_button" type="button" name="Generar XML" onclick="f_asignar_xml()">Generar XML</button>
+
+            <button class="c_button" type="button" name="Asignar Json a items" onclick="f_clic_asignar_valores_items()">Asignar valores a pantalla</button>
+            <button class="c_button" type="button" name="Descargar scv" onclick="arrayObjToCsv(miArrayDeObjetos)">csv desc</button>
+
+        </div>  
+       
+        
+        <div class="contenedor-elements_col contenedor con_res" id="con_element_col_res">
+            <h1 class="tittle_cont" id="tittle_cont_res">Titulo de detalles de resultado archivo </h1>
+            <textarea name="fg020" id="data_obj" rows="10" cols="200"></textarea>
+        </div>  
+
+        <div class="contenedor-elements_col contenedor con_pre" id="con_element_col_pre">
+            <h1 class="tittle_cont" id="tittle_cont_pre">Titulo de detalles precargados </h1>
+            <textarea name="fg020" id="data_obj_pre" rows="10" cols="200"></textarea>
+        </div>   
+
+
+    </div>
+
+</body>
+
+</html>

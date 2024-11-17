@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<HEAD>  
+<TITLE>Un documento con FORM</TITLE>
+<script>
+    function obtenerbasededatos(){
+        console.log('solo infi')
+    }
+</script>
+</HEAD>
+<BODY>
+...texto...
+<P>Ir al 
+<A tabindex="15" href="http://www.w3.org/">sitio web del W3C.</A>
+...más texto...
+<BUTTON type="button" name="obtener-base-de-datos"
+           tabindex="-1" onclick="obtenerbasededatos()">
+Obtener la base de datos acutal.
+</BUTTON>
+...más texto...
+<FORM action="..." method="post">
+<P>
+    <input type="text" class="elementos" tabindex="1" name="campo_1">
+    <input type="text" class="elementos" tabindex="2" name="campo_2">
+    <input type="text" class="elementos" tabindex="3" name="campo_3">
+    <input type="text" class="elementos" tabindex="4" name="campo_4">
+    <input type="text" class="elementos" tabindex="5" name="campo_5">
+    <INPUT tabindex="6" type="submit" name="enviar">
+</P>
+
+<nav>
+    <a href="#home" tabindex="-1">Inicio</a>
+    <a href="#services" tabindex="8">Servicios</a>
+    <a href="#contact" tabindex="9">Contacto</a>
+    <a href="#about" tabindex="10">Acerca de</a>
+</nav>
+</FORM>
+</BODY>
+</HTML>
