@@ -204,9 +204,7 @@
             f_descargar_archive('XML','Objeto.xml',xmlDocument);
         }          
 
-
-
-        // Función para asignar valores a los inputs
+        // Función para asignar valores a los inputs modifico comentario
         function asignarValores(json) {
             json.requisitos.forEach(item => {
                 // Buscar el input con id que coincida con `clave` clave que es id
