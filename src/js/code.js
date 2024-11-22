@@ -34,7 +34,11 @@
         if (p_tipo == "JS"){
             arrayElementos = document.getElementsByClassName("elemento") //js v1
         }else if(p_tipo == "JS2"){
+<<<<<<< HEAD
             arrayElementos = document.querySelectorAll(".elemento") //v2
+=======
+            document.querySelectorAll(".elemento") //v2
+>>>>>>> 690cfd8 (Se inicia repocitorio de tipos de texto y manejo web javascript, jquery)
         }else if(p_tipo == "JQ"){
             arrayElementos = $('.elemento') //Jquery
         }
@@ -144,7 +148,11 @@
            let jsonText = JSON.stringify(j_json_data); 
             //verificar parseado
            let verificar_estatus = j_json_data["estatus"]
+<<<<<<< HEAD
             //console.log('Estatus:'+ verificar_estatus)
+=======
+            console.log('Estatus:'+ verificar_estatus)
+>>>>>>> 690cfd8 (Se inicia repocitorio de tipos de texto y manejo web javascript, jquery)
             $("#data_obj").val(jsonText);
            //$("#data_obj").text(j_json_data); 
         }
@@ -221,14 +229,19 @@
         });
     }
 
+<<<<<<< HEAD
 
     function f_asignar_csv() {
+=======
+    function arrayObjToCsv(ar) {
+>>>>>>> 690cfd8 (Se inicia repocitorio de tipos de texto y manejo web javascript, jquery)
         let var2 =f_obtener_data_json_jquery2();
         ar =var2.requisitos;
         let separe =";"
         separe=","
         //comprobamos compatibilidad
         if(window.Blob && (window.URL || window.webkitURL)){
+<<<<<<< HEAD
             var contenido = "";
             //creamos contenido del archivo
             console.log('# Datos , regiistros de objeto :' + ar.length);
@@ -274,6 +287,28 @@
             //creamos el blob
             $("#data_obj").val( c_contenido);
             blob =  new Blob(["\ufeff", c_contenido], {type: 'text/csv'});
+=======
+            var contenido = "",
+                d = new Date(),
+                blob,
+                reader,
+                save,
+                clicEvent;
+            //creamos contenido del archivo
+            for (var i = 0; i < ar.length; i++) {
+                //construimos cabecera del csv
+                if (i == 0)
+                    contenido += Object.keys(ar[i]).join(separe) + "\n";
+                //resto del contenido
+                contenido += Object.keys(ar[i]).map(function(key){
+                    console.log(ar[i][key]);
+                                return ar[i][key];
+                            }).join(separe) + "\n";
+            }
+            //creamos el blob
+            $("#data_obj").val( contenido);
+            blob =  new Blob(["\ufeff", contenido], {type: 'text/csv'});
+>>>>>>> 690cfd8 (Se inicia repocitorio de tipos de texto y manejo web javascript, jquery)
             //creamos el reader
             var reader = new FileReader();
             reader.onload = function (event) {
@@ -302,14 +337,27 @@
             }
             //leemos como url
             reader.readAsDataURL(blob);
+<<<<<<< HEAD
         
     };
   
 /*   
+=======
+        }else {
+            //el navegador no admite esta opción
+            alert("Su navegador no permite esta acción");
+        }
+    };
+    
+>>>>>>> 690cfd8 (Se inicia repocitorio de tipos de texto y manejo web javascript, jquery)
     var miArrayDeObjetos = [
         { CODE: "ORA-00001", ERROR: "unique constraint (string.string) violated", DATE: "2015-10-01" },
         { CODE: "ORA-00017", ERROR: "session requested to set trace event", DATE: "2015-10-29" },
         { CODE: "ORA-02142", ERROR: "missing or invalid ALTER TABLESPACE option", DATE: "2015-11-09" },
         { CODE: "ORA-19500", ERROR: "device block size string is invalid", DATE: "2015-11-14" }
     ];
+<<<<<<< HEAD
 */
+=======
+
+>>>>>>> 690cfd8 (Se inicia repocitorio de tipos de texto y manejo web javascript, jquery)
