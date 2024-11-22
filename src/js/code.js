@@ -8,7 +8,7 @@
             this.extra_1 = p_extra_1;
             this.extra_2 = p_extra_2;
             this.extra_3 = p_extra_3;  
-            this.extra_4 = p_extra_4;
+            this.extra_4 = p_extra_4; 
             }
     }
 
@@ -133,7 +133,7 @@
             return j_json  
         }
 
-        function f_asignar_datos_js(){
+        function f_asignar_datos_js(){ 
             j_json_data = f_obtener_data_json_javascript_v2();
             elemento_pantalla = document.getElementById("data_obj")
             // Convertir el objeto JSON a texto
@@ -209,7 +209,7 @@
         // Función para asignar valores a los inputs
         function asignarValores(json) {
             json.requisitos.forEach(item => {
-                // Buscar el input con id que coincida con `clave`
+                // Buscar el input con id que coincida con `clave` clave que es id
                 try{
                     const inputElement = document.getElementById(item.clave);  
                     // Si existe el input, asignar el valor de `value1`
